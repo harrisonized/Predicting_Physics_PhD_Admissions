@@ -1,4 +1,4 @@
-# Physics Ph.D. Admissions
+# Predicting Physics PhD Admissions
 
 I analyzed data from [TheGradCafe](https://www.thegradcafe.com/), a website that allows users to post admissions results, in order to see if I can predict Physics Ph.D. Admissions based on students Grades and GRE scores.
 
@@ -9,3 +9,5 @@ From there, a quick exploratory data analysis quickly revealed the data to be la
 Afterward, I compare the following models to see which performs best. In order from best-to-worst, the models I tried are: random forest, xgboost, decision tree, svc, logistic regression, and Gaussian naive bayes.  Since random forest performed the best, I used a tuning grid in order to limit the tree depth and number of trees to improve model speed.
 
 Finally, I use random forest with untransformed features to derive the relative importance as a sanity check.
+
+For more information, please read [my blog post](https://harrisonized.github.io/2019/06/04/Project-3.html).
