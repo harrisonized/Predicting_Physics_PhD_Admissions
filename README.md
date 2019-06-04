@@ -1,6 +1,6 @@
 # Predicting Physics PhD Admissions
 
-I analyzed data from [TheGradCafe](https://www.thegradcafe.com/), a website that allows users to post admissions results, in order to see if I can predict Physics Ph.D. Admissions based on students Grades and GRE scores.
+I analyzed data from [TheGradCafe](https://www.thegradcafe.com/), a website that allows users to post admissions results, in order predict physics Ph.D. admissions based on student grades and GRE scores.
 
 The data was scraped by Github user [evansjames](https://github.com/evansrjames/) and freely available [here](https://github.com/evansrjames/gradcafe-admissions-data). After downloading the CSV file containing the physics admissions results, I cleaned the data by dropping NaNs, filtering out erroneous data, one-hot-encoding some categorical features, and selecting on Ph.D. admissions only. 
 
