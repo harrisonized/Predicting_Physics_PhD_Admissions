@@ -10,4 +10,4 @@ Afterward, I compare the following models to see which performs best. In order f
 
 Finally, I use random forest with untransformed features to derive the relative importance as a sanity check.
 
-For more information, please read my [blog post](https://harrisonized.github.io/2019/05/14/gradcafe-physics.html).
+For more information, please read my [blog post](https://harrisonized.github.io/2019/05/21/gradcafe-physics.html) and feel free to [email me](mailto:harrisonized@gmail.com) with any questions.
