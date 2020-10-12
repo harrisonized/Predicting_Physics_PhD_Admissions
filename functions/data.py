@@ -2,7 +2,7 @@ import math
 import numpy as np
 import pandas as pd
 from sklearn.metrics import confusion_matrix
-from .formatting import title_to_snake_case
+from .formatting.text_tools import title_to_snake_case
 
 pd.set_option('mode.chained_assignment', None)
 
